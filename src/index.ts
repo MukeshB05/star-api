@@ -62,7 +62,7 @@ app.get('/', (c) =>
   c.json({
     success: true,
     name: 'star-api',
-    version: '2.0.0',
+    version: '3.0.0',
     routes: [
       'GET /api/song/:id[,:id]?lyrics=true',
       'GET /api/song?link=',
